@@ -1,0 +1,9 @@
+2017-06-09T15:46:51.209 : getAllOrdersByDate: 2005-05-05 com.sg.floormastery.service.ServiceLocalDateException: There is no order that has happened before that date
+2017-06-09T15:47:24.684 : saveWork: 2 com.sg.floormastery.service.ServiceProductionException: Production mode not enabled. Training is being run
+2017-06-09T15:48:01.858 : saveWork: 2 com.sg.floormastery.service.ServiceProductionException: Production mode not enabled. Training is being run
+2017-06-09T15:49:40.142 : saveWork: com.sg.floormastery.service.ServiceProductionException: Production mode not enabled. Training is being run
+2017-06-12T12:02:38.576 : getAllOrdersByDate: com.sg.floormastery.service.ServiceLocalDateException: There is no order that has happened before that date
+2017-06-12T12:03:32.841 : getAllOrdersByDate: com.sg.floormastery.dao.DaoPersistenceException: -_- Could not load Orders_06112017's order data into memory.
+2017-06-12T12:06:55.017 : saveWork: com.sg.floormastery.service.ServiceProductionException: Production mode not enabled. Training is being run
+2017-06-12T12:07:53.022 : saveWork: com.sg.floormastery.service.ServiceProductionException: Production mode not enabled. Training is being run
+2017-06-12T12:08:29.088 : saveWork: com.sg.floormastery.service.ServiceProductionException: Production mode not enabled. Training is being run
