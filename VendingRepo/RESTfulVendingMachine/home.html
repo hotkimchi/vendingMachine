@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css"
+              rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>VendingMachine</h1>
+            <hr/>
+            <ul class='list-group' id='errorMessages'></ul>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class='row'>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item1'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number1'></p></button>
+                        </div>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item2'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number2'></p></button>
+                        </div>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item3'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number3'></p></button>
+                        </div>
+                        <div class='col-md-4 text-center' id='add-money'>
+                            <h2>Total $ In</h2>
+                            <p id='money-added'></p>
+                            <div class='row'>
+                                <div class='col-sm-4'>
+                                    <button type='button'
+                                            id='add-dollar'
+                                            class='btn btn-default'>
+                                            Add Dollar</button>
+                                    <button type='button'
+                                            id='add-dime'
+                                            class='btn btn-default'>
+                                            Add Dime</button>
+                                </div>
+                                <div class='col-sm-4'>
+                                    <button type='button'
+                                            id='add-quarter'
+                                            class='btn btn-default'>
+                                            Add Quarter</button>
+                                    <button type='button'
+                                            id='add-nickel'
+                                            class='btn btn-default'>
+                                            Add Nickel</button>
+                                            
+                                </div>
+                            </div>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item4'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number4'></p></button>
+                        </div>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item5'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number5'></p></button>
+                        </div>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item6'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number6'></p></button>
+                        </div>
+                        <div class='col-md-4 text-center' id='display-messages'>
+                            <h2>Messages</h2>
+                            <p id='show-message'></p>
+                            <div class='row'>
+                                <div class='col-md-1'>
+                                    <h4>Item:</h4>
+                                </div>
+                                <div class='col-md-5'>
+                                    <p id='item-name' style='margin-left: 25px'></p>
+                                </div>
+                            
+                            </div>
+                                <button type='button'
+                                        id='buy-item'
+                                        class='btn btn-default'>
+                                        Make Purchase</button>
+                                <hr/>
+                            
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item7'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number7'></p></button>
+                        </div>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item8'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number8'></p></button>
+                        </div>
+                        <div class='col-md-2'>
+                            <button type='button'
+                                    id='item9'
+                                    class='btn btn btn-default'>
+                                    <p id='item-number9'></p></button>
+                        </div>
+                        <div class='col-md-4 text-center' id='display-change'>
+                            <h2>Change</h2>
+                            <p id='show-change'></p>
+                            <button type='button'
+                                    id='change-back'
+                                    class='btn btn-default'>
+                                    Change Back</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- #5: Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

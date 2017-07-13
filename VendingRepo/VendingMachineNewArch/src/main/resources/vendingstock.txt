@@ -1,0 +1,9 @@
+1::Snickers::1.85::9
+2::M&Ms::1.50::2
+3::Pringles::2.10::5
+4::Resse's::1.85::4
+5::Pretzels::1.25::9
+6::Twinkies::1.95::3
+7::Doritos::1.75::11
+8::Almond Joy::1.85::0
+9::Trident::1.95::6
